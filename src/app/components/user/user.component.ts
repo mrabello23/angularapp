@@ -12,7 +12,7 @@ export class UserComponent implements OnInit {
   address:Address; // Objeto (interface)
   hobbies:string[]; // Array
   teste:any; // Aceita qualquer valor
-  url:string = 'http://localhost/slimapp/public/api/customers';
+  url:string = 'https://jsonplaceholder.typicode.com/posts';
   posts:Post[];
   isEdit:boolean = false;
 
